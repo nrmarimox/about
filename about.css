@@ -1,0 +1,115 @@
+* {
+  margin:0vw;
+  padding:0vw;
+  -sizing: border-box;
+}
+li {
+  list-style:none;
+}
+a {
+    text-decoration:none;
+    color:#212121;
+}
+body {
+    background-color:#DBE2EF;
+    color:#212121;
+    margin:1vw;
+}
+
+.body-content {
+    background-color:#fbf9fa;
+    margin: 0 1vw;
+      border-radius: 50%;
+
+}
+@media (min-width:320px) and ( max-width:1000px) {
+.body-content  {
+height: 170vw;
+width: 99%;
+margin-top: 5vw;
+}
+}
+
+header {
+  width: 100vw;
+  height:5vw;
+  font-family: "Impact";
+}
+.title h1 {
+    color: blue;
+    font-size:70px;
+    text-align: center;
+    padding-top:1vw;
+    letter-spacing:4px;
+    border-radius: 5%;
+    width: 30vw;
+    margin: auto;
+    padding-bottom: 10px;
+}
+@media (min-width:320px) and ( max-width:1000px) {
+  header {
+    height: 15vw;
+  }
+  .title h1 {
+    font-size: 100px;
+    padding-top: 5vw;
+}
+}
+.photo img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin-top: 3vw;
+}
+@media (min-width:320px) and ( max-width:1000px) {
+  .photo img  {
+  height: 20vw;
+  width:20vw;
+  text-align: center;
+  margin: 7vw 0 0 2vw;
+}
+}
+.photo {
+margin-left: auto;
+margin-top: 1vw;
+}
+.content {
+    display: flex;
+}
+@media (min-width:320px) and ( max-width:1000px) {
+.content  {
+display: block;
+text-align: center;
+}
+}
+.name {
+    font-size: 50px;
+    letter-spacing:3px;
+    font-family: "Impact";
+    margin-right:auto;
+    margin-top: 8vw;
+    padding-left: 5vw;
+}
+.comment {
+  width: 100%;
+  text-align: center;
+  margin-top: 5vw;
+}
+.comment p {
+  width: 60%;
+  margin: auto;
+  letter-spacing:3px;
+  font-size: 22px;
+}
+@media (min-width:320px) and ( max-width:1000px) {
+.comment p  {
+font-size: 28px;
+padding: 5vw;
+letter-spacing:4px;
+}
+}
+footer {
+    width: 100%;
+    height: 1vw;
+    margin-top: 3vw;
+}
